@@ -12,7 +12,7 @@ local success = BytenetUtils.wrapRemoteFunction(
 BytenetUtils.wrapRemoteFunction(QuestPackets.iClaimQuest, QuestPackets.rClaimQuest).onInvoke(
   function(id, player)
     return ServerQuestFuncs.claimQuestRewards(player, id)
-	end
+   end
 )
 ```
 namespace declaration example;
